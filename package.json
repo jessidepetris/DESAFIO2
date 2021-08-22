@@ -1,0 +1,23 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "Jess",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx babel-node app.js",
+    "start": "nodemon --exec npm run serve"
+  },
+  "author": "Jess",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "rxjs": "^7.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3"
+  },
+  "type": "module"
+}
